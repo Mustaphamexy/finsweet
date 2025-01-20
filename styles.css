@@ -87,7 +87,7 @@
 
   /* media query section */
 
-  @media (max-width: 420px) {
+  @media (max-width: 420px){
    .container {
     width: 90%;
     padding: 10px;
@@ -111,8 +111,29 @@
 
    .text-section {
     background-image: url(../images/Header-Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+   }
+
+   .text-area{
+    max-width: 90%;
+
+   }
+
+   .text-area h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-top: 60px;
    }
 
 
 
+  }
+
+  @media (min-width: 421px) and (max-width: 998px) {
+    header{
+      background-color: aqua;
+    }
   }
