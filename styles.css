@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+li {
+  list-style: none;
+}
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
@@ -46,6 +50,7 @@
 
   /* hero section */
 
+
   .text-section{
     display: flex;
     justify-content: center;
@@ -65,11 +70,15 @@
 
   .image-area{
     max-width: 55%;
+    
   }
 
-  .image-area img {
+  .image-area {
+    background-image: url(images/Header-Image.png);
     width: 100%;
-    height: 500px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
   }
 
   .book-btn{
@@ -84,18 +93,78 @@
   font-style: normal;
   }
 
+  /* quote and form section */
+
+  .quote-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2e6e9;
+  }
+  .quote-area ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-block: 5px; 
+}
+
+  .quote-area ul li img {
+    width: 25%;
+    padding-inline: 15px;
+  }
+
+  .form-area {
+    width: 46%;
+  }
+  
+
+  .form-area div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form-area .input-box {
+    padding: 10px;
+    border: 2px solid rgb(195, 241, 195);
+    border-radius: 8px;
+ }
+  .list-area {
+    width: 40%;
+  }
+
+  .list-area p {
+    font-family: "Baskervville", serif;
+
+  }
+
+
+  .quote-area h4 {
+    padding-block: 5px;   
+  }
+
+  .quote-area .list-area h2{
+    margin-bottom: 50px;
+    font-family: "DM Serif Text", serif;
+
+  }
+
+  .quote-area h2 {
+    font-family: "DM Serif Text", serif;
+
+  }
+
+
+
 
   /* media query section */
 
-  @media (max-width: 420px){
+  @media (max-width: 425px){
    .container {
     width: 90%;
-    padding: 10px;
+    
    }
 
-   .header {
-    background-color: blue;
-   }
+   
 
    .navigation{
     display: none;
@@ -110,7 +179,7 @@
    }
 
    .text-section {
-    background-image: url(../images/Header-Image.png);
+    background-image: url(images/BGImage.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,17 +192,96 @@
    }
 
    .text-area h1 {
-    font-size: 60px;
+    font-size: 43px;
     color: #fff;
-    margin-top: 60px;
+    margin-top: 50px;
    }
+
+   .text-area p {
+    color: #fff;
+   }
+   .text-area small {
+    color: #fff;
+   }
+   .image-area{
+    display: none;
+   }
+
+   .quote-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+   }
+
+   .quote-area .list-area {
+    width: 95%;
+    padding-block: 20px;
+   }
+
+   .quote-area .form-area {
+    width: 95%;
+   }
+
+   .quote-area h2 {
+    margin-bottom: 20px;
+   }
+
+   .quote-area h4 {
+padding-block: 5px;   }
 
 
 
   }
 
-  @media (min-width: 421px) and (max-width: 998px) {
-    header{
-      background-color: aqua;
+  @media (min-width: 426px) and (max-width: 998px) {
+    header .logo {
+      width: 90%;
     }
+
+    header {
+      background-color: #e2e6e9;
+    }
+    
+    .container{
+      width: 100%;
+      padding-block: 10px;
+      margin: 0 auto;
+  }
+  .navigation{
+    display: none;
+   }
+
+   .text-area h1 {
+    font-size: 50px;
+    color: #fff;
+   }
+   .text-area p {
+    color: #fff;
+   }
+   .text-area small {
+    color: #fff;
+   }
+   .image-area{
+    display: none;
+   }
+   .text-section {
+    background-image: url(images/BGImage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    min-height: 60dvh;
+   }
+
+   .quote-area {
+    align-items: start;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+   }
+
+
   }
