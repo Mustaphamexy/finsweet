@@ -100,12 +100,14 @@ li {
     justify-content: space-between;
     align-items: center;
     background-color: #e2e6e9;
+    width: 100%;
   }
   .quote-area ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
 padding-block: 5px; 
+
 }
 
   .quote-area ul li img {
@@ -152,6 +154,82 @@ padding-block: 5px;
     font-family: "DM Serif Text", serif;
 
   }
+
+  .know-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .book-section-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 1200px;
+    padding-inline: 100px;
+    margin-top: 30px;
+  }
+
+  .process-section {
+    width: 40%;
+  }
+
+  .process-section h2 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: "DM Serif Text", serif;
+
+  }
+
+  .process-section p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #555;
+    font-family: "Baskervville", serif;
+  }
+
+  .appoint-section-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+    margin-bottom: 90px;
+
+    
+  }
+
+  .appoint-section-box h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: "DM Serif Text", serif;
+  }
+
+  .appoint-section {
+    width: 30%;
+  }
+
+  .appoint-text h3 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    font-family: "DM Serif Text", serif;
+
+  }
+
+  .appoint-text p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+    font-family: "Baskervville", serif;
+  }
+
+
+
+
+
+  
 
 
 
