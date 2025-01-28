@@ -553,9 +553,7 @@ footer {
     
    }
 
-   
-
-   .navigation{
+   .navigation {
     display: none;
    }
 
@@ -619,10 +617,98 @@ footer {
    }
 
    .quote-area h4 {
-padding-block: 5px;   }
+  padding-block: 5px;  
+ }
+ 
+ .book-section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+ }
+
+ .process-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: "DM Serif Text", serif;
+
+}
+
+.process-section p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #555;
+  font-family: "Baskervville", serif;
+}
+
+.appoint-section-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  
+}
+
+.appoint-section-box h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-family: "DM Serif Text", serif;
+}
+
+.appoint-section {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.contact-box-section {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.car-box img,
+.auto-box img {
+  max-width: 100%;
+}
 
 
+.contact-box {
+  flex: 1.5;
+  background-color: #ff6d2d;
+  color: #ffffff;
+  text-align: center;
+}
 
+.experience-section-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E2E6E9;
+  padding: 20px 2px;
+}
+
+.experience-section-box h2 {
+  font-size: 2rem;
+}
+
+.experience-section-box h4 {
+  font-size: 0.8rem;
+  
+}
+
+.brand-section-box {
+   padding-block: 20px 0;
+}
+
+.brand-image img {
+  max-width: 100%;
+}
+
+.brand-image {
+}
   }
 
   @media (min-width: 426px) and (max-width: 998px) {
