@@ -225,11 +225,322 @@ padding-block: 5px;
     font-family: "Baskervville", serif;
   }
 
+  .service-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #d3d8dc;
+  }
+
+  .service-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: "Baskervville", serif;
+  }
+
+  .service-text h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: "DM Serif Text", serif;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 50px auto;
+    
+  }
+
+  .service-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .service-item:hover {
+    background-color: #5CBA99;
+  }
+
+  .service-item h4 {
+    font-size: 1.5rem;
+    font-family: "Baskervville", serif;
+}
+
+.service-item img {
+  margin-bottom: 20px;
+}
+
+.learn-service {
+   margin-top: 30px;
+}
 
 
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+
+.contact-box-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.car-box img,
+.auto-box img {
+  max-width: 100%;
+}
+
+.car-box {
+  flex: 3;
+}
+
+.auto-box  {
+  flex: 3;
+}
+
+.contact-box {
+  flex: 1.5;
+  background-color: #ff6d2d;
+  color: #ffffff;
+  padding: 50px 70px;
+  text-align: center;
+}
+
+.contact-box h4 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Baskervville", serif;
+}
+
+
+.experience-section-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 90px;
+  background-color: #E2E6E9;
+}
+
+.experience-section-box h2 {
+  font-size: 3rem;
+  color: #661CE7;
+  font-family: "DM Serif Text", serif;
+}
+
+.experience-section-box h4 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: "Baskervville", serif;
+}
+
+.brand-section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.brand-section-box h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: "DM Serif Text", serif;
+}
+
+.Customer-section-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+  padding-top: 50px;
+}
+
+.customer-box{
+  display: flex;
+  padding: 50px 150px;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.customer-container {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.Customer-section-box h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "DM Serif Text", serif;
+}
+
+.customer-profile {
+  display: flex;
+}
+
+.customer-profile .text {
+  padding-inline: 10px;
+  transform: translate(0,10px);
+}
+
+.customer-profile .text h4 {
+  font-size: 1.5rem;
+  font-family: "Poppins", serif;
+  margin-bottom: 5px;
+}
+
+.customer-profile .text p {
+  font-size: 1rem;
+  font-family: "Baskervville", serif;
+  margin-bottom: 20px;
+}
+.customer-text p {
+  font-size: 1.9rem;
+  font-family: "Poppins", serif;
+  font-weight:300;
+  text-justify: inter-word;
+}
+
+/* frequently asked section */
+
+.question-section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E2E6E9;
+}
+
+.question-section-box h2 {
+  font-size: 3rem;
+  margin-block: 30px;
+  font-family: "DM Serif Text", serif;
+}
+
+.question-list, .question-list-two {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 680px;
+  padding: 30px;
+}
+
+.question-list h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Poppins", serif;
+}
+
+.question-list-two  h3 {
+  font-size: 20px;
+  font-family: "Poppins", serif; 
+}
+
+.question-list p {
+  font-family: "Baskervville", serif;
+}
+
+
+.plus, .minus {
+  background-color: #ff6d2d;
+  width: 45px;
+  height: 35px;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.address-section {
+  background-color: #1E1B1B;
+  padding-block: 50px;
+}
+
+.address-section-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   
+}
+
+.address-section-text h3 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-family: "Poppins", serif;
+  
+}
+
+.address-section-contact h2 {
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 50px;
+  font-family: "DM Serif Text", serif;
+  
+}
+.address-section-contact{
+  max-width: 350px;
+ 
+}
+
+.address-section-text p {
+  color: #777676;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-family: "Baskervville", serif;
+}
+
+/* footer */
+
+.footer-logo {
+
+}
+
+footer {
+  background-color: #000;
+}
+
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+
+}
+
+.footer-navigation ul {
+  list-style-type: none;
+  display: flex;
+
+}
+
+.footer-navigation ul li {
+  padding-inline: 20px;
+
+}
+
+.footer-navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", serif;
+}
+
+.footer-copy p{
+  color: #fff;
+  font-family: "Baskervville", serif;
+}
+
 
 
 
