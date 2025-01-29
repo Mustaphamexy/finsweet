@@ -699,16 +699,74 @@ footer {
   
 }
 
-.brand-section-box {
-   padding-block: 20px 0;
+
+.brand-image-box{
+  max-width: 240px;
+  
 }
 
 .brand-image img {
-  max-width: 100%;
+  width: 100%;
 }
 
-.brand-image {
+.Customer-section-box h2 {
+  font-size: 2rem;
 }
+
+.customer-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.customer-profile .text {
+  padding-inline: 10px;
+  transform: translate(0,-6px);
+}
+
+.customer-text p {
+  font-size: 1rem;
+}
+
+.question-section-box h2 {
+  font-size: 1.5rem;
+}
+
+.address-section-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-section-box h2 {
+  font-size: 2.5rem;
+}
+
+.address-section-text {
+  text-align: center;
+}
+
+.address-section-contact img {
+  margin-bottom: 20px;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.footer-navigation a {
+  text-decoration: none;
+  color: #fff;
+ font-size: 10px;
+ margin-bottom: 30px;
+}
+
+
+
+
   }
 
   @media (min-width: 426px) and (max-width: 998px) {
@@ -755,8 +813,62 @@ footer {
     align-items: start;
     width: 100%;
     margin-top: 20px;
-    padding: 15px;
+    padding: 20px;
+    padding-right: 100px;
    }
 
+   .contact-box-section {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+  }
+
+   .car-box img,
+.auto-box img {
+ height: 310px;
+}
+
+
+.contact-box {
+  flex: 1.5;
+  background-color: #ff6d2d;
+  color: #ffffff;
+  text-align: center;
+  padding-block: 50px;
+}
+
+.contact-box h4 {
+  font-size: 1.5rem;
+}
+
+.brand-image-box{
+  max-width: 900px;
+  
+}
+
+.brand-image img {
+  width: 100%;
+}
+
+.customer-text p {
+  font-size: 1rem;
+}
+
+.footer-copy {
+
+  padding-right: 20px;
+}
+
+.service-section-box {
+  padding: 30px;
+}
+.address-section-box {
+  padding: 20px;
+}
+
+.brand-section-box {
+
+  padding-right: 160px;
+}
 
   }
